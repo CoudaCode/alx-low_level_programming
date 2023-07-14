@@ -1,12 +1,13 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
+/**
  * main - Enter point
- * Description : the program checks if a number is positive or negative
- * Return always 0 (Success)
- * 
+ *
+ * Description : "Checks foor number if it  is positive or negative"
+ * Return:always 0
  */
+
 int main(void)
 {
 	int n;
