@@ -1,14 +1,17 @@
 #include <stdio.h>
 /**
- * main -Enter point
- * Description : "Use putchar() to return the alphabet letters"
- * Return : always 0.
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
  */
-
 int main(void)
 {
-	char *n = "abcdefghijklmnopqrstuvwxyz";
+	char letter;
 
-	putchar(*n++);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
+
+	putchar('\n');
+
 	return (0);
 }
