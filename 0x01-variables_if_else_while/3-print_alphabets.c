@@ -1,6 +1,9 @@
 #include <stdio.h>
+
 /*
- * main - Return the alphbet lower and upper
+ * main - Enter point
+ *
+ * Description:" Return the alphbet lower and upper"
  *
  * Return: Always 0.
  */
