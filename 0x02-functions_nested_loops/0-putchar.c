@@ -2,7 +2,7 @@
 
 /**
  * main - Enter point
- * Desc: print "_putchar" followed by newline
+ * Desc: printf "_putchar" followed by newline
  * Return : Always 0.
  */
 
