@@ -2,8 +2,10 @@
 
 /**
  * main - Enter point
+ * Desc: print "_putchar" followed by newline
  * Return : Always 0.
  */
+
 int main(void)
 {
 	_putchar('_');
