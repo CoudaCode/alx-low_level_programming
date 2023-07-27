@@ -1,10 +1,9 @@
 #include <stdio.h>
 
-
-
-/*
- * main -Enter point
- * Return: Always 0 (Success)
+/**
+ * main - entry point
+ * Descrition pritnt abcdefghijklmnopqrstuvwxyz
+ * Return: 0 always
  */
 
 int main(void)
