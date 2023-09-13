@@ -5,8 +5,7 @@
  *
  */
 
-void print_alphabet_x10(void)
-{
+void print_alphabet_x10(void){
 
 	char charac;
 	int i;
@@ -18,10 +17,10 @@ void print_alphabet_x10(void)
 		while (charac < 'z')
 		{
 			_putchar(charac);
+			charac++;
 		}
 		i++;
 		_putchar('\n');
 	}
-	return (0);
 }
 
