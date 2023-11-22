@@ -1,10 +1,11 @@
 #include "main.h"
+
 /**
- * _isalpha - check is params is lowercase and uppercase
- * @c : the charactere to check
- * Return: 1 if charac is lowerse else 0
+ * _isalpha - checks if character is alpha
+ * @charac: the character to be checked
+ * Return: 1 if c is a lette else 0
  */
-int _isalpha(int c)
+int _isalpha(int charac)
 {
-	return ((c > 'a' && c < 'z') || (c > 'A' && c < 'Z'));
+	return ((charac >= 'a' && charac <= 'z') || (charac >= 'A' && charac <= 'Z'));
 }

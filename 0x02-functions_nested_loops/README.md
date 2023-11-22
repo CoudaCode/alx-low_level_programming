@@ -1,1 +1,1 @@
-0x02-functions_nested_loops
+This is a Readme repo for 0x02 func

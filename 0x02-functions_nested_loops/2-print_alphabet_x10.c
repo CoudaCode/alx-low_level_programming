@@ -1,18 +1,14 @@
 #include "main.h"
+
 /**
  * print_alphabet_x10 - find the alphabet letters in lowercase x 10
- * Description : This program prints the alphabet ten times.
- * Return : 0
- *
+ * Return: Always 0.
  */
-
 void print_alphabet_x10(void)
 {
-
+	int i = 0;
 	char charac;
-	int i;
 
-	i = 0;
 	while (i < 10)
 	{
 		charac = 'a';
@@ -25,4 +21,3 @@ void print_alphabet_x10(void)
 		_putchar('\n');
 	}
 }
-

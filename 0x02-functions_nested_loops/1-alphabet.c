@@ -1,22 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet - Prints the lowercase alphabet in ascending order.
- *
- * Description:
- * This function prints all the lowercase letters of the English alphabet in
- * ascending order, starting from 'a' and ending with 'z', followed by a
- * newline character.
- *
- * Return: None
+ * print_alphabet - find the alphabet letters in lowercase
+ * Return: Always 0.
  */
-
 void print_alphabet(void)
 {
-	char alpha[26] = "abcdefghijklmnopqrstuvwxyz";
-	int i;
+	char charac = 'a';
 
-	for (i = 0; i < 26; i++)
-		_putchar(alpha[i]);
+	while (charac <= 'z')
+	{
+		_putchar(charac);
+		charac++;
+	}
 	_putchar('\n');
 }

@@ -1,16 +1,14 @@
 #include "main.h"
 /**
- * swap_int - inverse the numbers
- * @a: pointer to an int
- * @b: pointer to an int
+ * swap_int - swaps a value of two integers
+ * @a: int 1
+ * @b: int 2
+ * Return: nothing
  */
-
 void swap_int(int *a, int *b)
 {
-	int tmps = 0;
-
-	tmps = *b;
-	*b = *a;
-	*a = tmps;
-
+	int c = *a;
+	*a = *b;
+	*b = c;
 }
+
